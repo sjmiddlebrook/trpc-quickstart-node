@@ -1,0 +1,19 @@
+{
+  "name": "trpc-quickstart",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.43.3",
+    "@trpc/server": "^10.43.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
